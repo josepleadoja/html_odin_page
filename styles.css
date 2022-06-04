@@ -34,11 +34,7 @@ header ul {
 header p {
     font-weight: bold;
 }
-.top-content h1 {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: bolder;
-}
+
 
 header p,
 .top-content p {
@@ -46,8 +42,39 @@ header p,
     font-size: 24px;
 }
 
+.top-content {
+    padding: 50px 170px;
+    display: flex;
+    align-items: center;
+}
+
+.top-content h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.top-content p {
+    margin-top: 2px;
+    font-size: 16px;
+}
+
+.top-content img {
+    color: white;
+    text-justify: distribute;
+    padding: 90px 220px;
+    margin: 20px;
+    background-color: darkgray;
+}
+
 button {
     background-color: #3882F6;
+    padding: 8px 24px;
+    border: solid 2px #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .information h1{
