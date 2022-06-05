@@ -68,7 +68,7 @@ header p,
     background-color: darkgray;
 }
 
-button {
+.top-content button {
     background-color: #3882F6;
     padding: 8px 24px;
     border: solid 2px #3882F6;
@@ -81,6 +81,27 @@ button {
     font-weight: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+}
+.cards img {
+    border: solid 4px blue;
+    border-radius: 10px;
+    padding: 80px;
+    margin: 10px;
+}
+.cards p {
+    width: 160px;
+    margin-top: 4px;
+    margin-bottom: 60px;
 }
 
 .quote {
@@ -105,7 +126,27 @@ button {
 
 .sign-up-section {
     background-color: #3882F6;
-    padding: 30px;
-    margin: 30px;
+    color: #E5E7EB;
     border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 170px;
+    margin: 50px 120px;
+}
+
+.sign-up-section h2 {
+    font-weight: bolder;
+}
+.sign-up-section button {
+    border: solid 2px white;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+footer p {
+    text-align: center;
+    color: #E5E7EB;
+    padding: 30px;
 }
